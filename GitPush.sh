@@ -49,7 +49,8 @@ echo "OK:  Successfully added files to GitHub cache!"
 echo $BLANK_LINE
 
 # Commit additions to GitHub repository cache
-git commit -m "Updated $REPOSITORY_NAME content"
+CURRENT_TIMESTAMP=$(date +"%m-%d-%Y %T")
+git commit -m "Updated content as of $CURRENT_TIMESTAMP"
 if [ $? != 0 ]
 then
     echo "ER:  Cannot commit GitHub cache"
