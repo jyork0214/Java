@@ -49,8 +49,7 @@ echo "OK:  Successfully added files to GitHub cache!"
 echo $BLANK_LINE
 
 # Commit additions to GitHub repository cache
-CURRENT_TIMEZONE="America/New_York"
-CURRENT_TIMESTAMP=$(TZ=$CURRENT_TIMEZONE date + "%m-%d-%Y %T")
+CURRENT_TIMESTAMP=$(date + "%m-%d-%Y %T %Z")
 git commit -m "Updated content as of $CURRENT_TIMESTAMP"
 if [ $? != 0 ]
 then
