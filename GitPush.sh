@@ -50,7 +50,7 @@ echo $BLANK_LINE
 
 # Commit additions to GitHub repository cache
 CURRENT_TIMESTAMP=$(date +"%m-%d-%Y %T")
-git commit -m "Updated content as of $CURRENT_TIMESTAMP"
+git commit -m "Updated content as of $CURRENT_TIMESTAMP TZ=America/New_York"
 if [ $? != 0 ]
 then
     echo "ER:  Cannot commit GitHub cache"
