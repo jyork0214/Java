@@ -6,7 +6,8 @@ Program Name:  Client.java
      Purpose:  A basic construct.
 
 Notes.
-    None.
+    18JAN22@1327 - JEY.
+        None.
 -----------------------------------------------
 */
 public class Client
