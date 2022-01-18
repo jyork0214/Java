@@ -1,7 +1,15 @@
-//  Class:  Color
-// Author:  James York
-//   Date:  1/2/2022, 1:05:27 PM
+/*
+-----------------------------------------------
+Program Name:  Color.java
+      Author:  James York
+        Date:  02JAN22@1305
+     Purpose:  A color class.
 
+Notes.
+    02JAN22@1305 - JEY
+        None.
+-----------------------------------------------
+*/
 public class Color
 {
 	//  Private Data Members.

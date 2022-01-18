@@ -6,7 +6,7 @@ Program Name:  Client.java
      Purpose:  A basic construct.
 
 Notes.
-    18JAN22@1327 - JEY.
+    18JAN22@1327 - JEY
         None.
 -----------------------------------------------
 */
